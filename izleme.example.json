@@ -1,0 +1,8 @@
+{
+ "_comment": "Example watchlist. Copy to $RADAR_DATA_DIR/state/izleme.json (radar.py does this automatically on the first run) and edit. 'repo' is owner/name on GitHub, or gitea:<host>/<owner>/<name> for a Gitea instance. 'tur' (type) is free text, e.g. 'manual' or 'radar-candidate'.",
+ "repolar": [
+  {"repo": "monero-project/monero", "neden": "reference PoW codebase (RandomX); many new coins fork it", "kaynak": "example", "tur": "manual"},
+  {"repo": "kaspanet/rusty-kaspa", "neden": "reference blockDAG PoW node; watch releases", "kaynak": "example", "tur": "manual"},
+  {"repo": "cosmos/cosmos-sdk", "neden": "PoS framework; new chains often import it", "kaynak": "example", "tur": "manual"}
+ ]
+}

@@ -92,7 +92,7 @@ a few minutes.
 ## Install
 
 ```bash
-git clone https://github.com/grogureis/pow-pos-radar
+git clone https://github.com/0xRorschach/pow-pos-radar
 cd pow-pos-radar
 export GITHUB_TOKEN=...            # read-only token (fine-grained, public repos, no write scopes)
 export RADAR_DATA_DIR=~/radar-data # where state/ and runs/ are kept (default ./radar-data)

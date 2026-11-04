@@ -1,0 +1,18 @@
+# run outputs and private state (ledger, watchlist, snapshots)
+radar-data/
+state/
+runs/
+reports/
+durum/
+gunluk/
+rapor/
+clone/
+*.bak
+*.bak-*
+# local config / secrets
+.env
+.env.*
+izleme.json
+# python
+__pycache__/
+*.pyc
